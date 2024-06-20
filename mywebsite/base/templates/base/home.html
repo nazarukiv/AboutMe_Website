@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ivan Nazaruk</title>
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/IMG_3018.jpeg' %}" >
+                    <hr>
+                    <h4>Hi, I'm Ivan!</h4>
+                    <p>I love programming and exploring various aspects of IT.</p>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4>About Me</h4>
+                    <hr>
+                    <p>I started learning programming 3.5 years ago at the IT Step computer academy. I've explored web design using tools like Blender, Photoshop, and Figma, as well as modeling, and data analytics. Eventually, I chose to focus on Python programming.</p>
+
+                    <p>Originally from Ukraine, I moved to London due to the ongoing conflict. I continued my education here, completing the Level 2 ICT Digital Skills course and achieving a grade 6 in both English and Mathematics GCSEs after less than a year of preparation and adaptation. Additionally, I scored the highest grade (DD) in my college course.</p>
+
+                    <p>Currently, I'm enrolled in the Level 3 ICT program and preparing for an apprenticeship or university. I spend a lot of time studying at home and have completed numerous courses from institutions such as MIT, Meta, Stepic, ItProger, among others. I maintain a GitHub profile where I regularly upload personal and pet projects.</p>
+
+                    <p>My current focus is on several pet projects and an Algorithms course. I regularly solve algorithms on LeetCode, with a goal to complete the MIT Algorithms and Data Structures course and solve 200 LeetCode problems by the end of summer (currently at 58 solved).</p>
+
+                    <p>I'm passionate about programming and eager to start my career.</p>
+
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static 'images/Facebook_Logo.png' %}"></li>
+                        <li><img class="social" src="{% static 'images/linkedin_logo.webp' %}"></li>
+                        <li><img class="social" src="{% static 'images/Instagram_logo.png' %}"></li>
+                        <li><img class="social" src="{% static 'images/Youtube_logo.png' %}"></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>About Me</h5>
+                    <hr>
+                    <p>I'm a very active person and have explored various hobbies throughout my life, including football, dancing, and boxing. I am highly communicative and have always enjoyed building my soft skills both among friends and at work. When I moved to London, I worked in two restaurants where I collaborated extensively with teams and interacted with people.</p>
+                    <p>I am deeply motivated and ready to take on challenges!</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>What I Know</h5>
+                    <hr>
+                    <p>I know Python, Django, HTML/CSS, JavaScript/jQuery, React, PostgreSQL, AWS, and integration with APIs such as Google Maps and JavaScript charts. I have a strong command of algorithms and continuously improve in this area. I'm experienced with Docker, FastAPI, REST APIs, and have a solid foundation in JavaScript. I'm proficient in design patterns (algorithms and databases) and writing code tests. I can deploy applications on servers like AWS and Cloud, and I'm skilled in developing Telegram and Discord bots (primarily Telegram).</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>How I Learn</h5>
+                    <hr>
+                    <p>I'm currently studying at college, diligently completing assignments and gaining various skills. My course includes units such as Information Technology Systems, Creating Systems to Manage Information, Using Social Media in Business, and Programming. Additionally, I engage in self-study by taking various courses, watching YouTube tutorials, and researching online (using platforms like Stack Overflow and GeekForGeeks). However, my primary learning method involves hands-on experience through personal projects, where I acquire essential practical skills.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My Short Term Goals</h5>
+                    <hr>
+                    <p>Currently, my main goals are to build a strong resume with impressive projects and to excel in algorithms, data structures, and problem-solving on platforms like LeetCode and CodeWars. Additionally, I'm keen to land my first job opportunity in the near future.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
